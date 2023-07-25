@@ -1,0 +1,200 @@
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 736px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .header-nav-menu {
+    position: relative;
+    opacity: 1;
+  }
+  .nav-address {
+    position: relative;
+    opacity: 1;
+  }
+  .section-solution {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg-tablet.jpg);
+    max-width: 768px;
+  }
+  .section-solution-container {
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  .title-first {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  .section-preference {
+    padding: 96px 0px;
+  }
+  .section-preference-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .section-preference-item .title-third {
+    text-align: left;
+  }
+  .section-preference-item {
+    max-width: calc((100% - 24px) / 2);
+  }
+  .section-our-team-list {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 64px;
+  }
+  .section-our-team-item {
+    max-width: calc((100% - 24px) / 2);
+  }
+  .section-customers .container {
+    padding: 0 92px;
+  }
+  .section-customers-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .section-customers-item {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .footer-container-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .container-links {
+    margin-bottom: 0px;
+  }
+  .footer-container-links.title-third {
+    text-align: left;
+  }
+  .footer-container-subscribe-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .nav-address {
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+  }
+  .adress-menu {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header {
+    padding: 24px 0px;
+  }
+  .header-container .logo-text {
+    margin-right: 76px;
+  }
+
+  .section-solution {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .section-solution-container {
+    margin-bottom: 48px;
+  }
+  .section-portfolio {
+    display: inline;
+    padding-bottom: 120px;
+  }
+  .section-preference {
+    padding: 120px 0px;
+  }
+  .section-preference-list {
+  }
+  .section-preference-item {
+    max-width: calc((100% - (24px * 3)) / 4);
+  }
+  .section-preference-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--cloud-color);
+  }
+  .section-preference-item .title-third {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .list-text {
+    font-weight: 400;
+  }
+  .section-our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .section-our-team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .section-our-team-item {
+    max-width: calc((100% - (24px * 3)) / 4);
+  }
+  .section-customers .container {
+    padding: 0 15px;
+  }
+  .section-customers {
+    padding: 120px 0;
+  }
+  .section-customers-item {
+    width: calc((100% - (24px * 5)) / 6);
+    height: 88px;
+  }
+
+  /*----- Footer -----*/
+  .basement {
+    padding: 100px 0;
+  }
+  .footer-container {
+    align-items: baseline;
+  }
+  .footer-container-logo {
+    margin-left: 0;
+    margin-right: 120px;
+  }
+  .container-links {
+    margin-right: 80px;
+  }
+
+  .subscribe-email-input {
+    width: 264px;
+  }
+}
