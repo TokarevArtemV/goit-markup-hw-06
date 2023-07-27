@@ -375,7 +375,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 16px;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 .filter-button {
   padding: 8px 16px;
@@ -400,7 +400,7 @@ img {
 .filters-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
+  row-gap: 48px;
 }
 .section-filters-portfolio-item {
   max-width: 100%;
