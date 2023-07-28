@@ -817,8 +817,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
   color: var(--slate-color);
-  
-}
+  }
 .menu-container .adress-menu {
   align-items: start;
   height: 100%;
